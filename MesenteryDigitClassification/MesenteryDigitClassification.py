@@ -1,11 +1,10 @@
 # # ---------------------------------------------------------------------------
 #   Author: Rumana Aktar 
-#   Date: 01/22/2022
+#   Date: 01/27/2022
 #   
-#   Problem: Classify handwritten latters (of MNIST DATASET) into 10 classes using Artificial Neural Network
-#               and Convolutional Neural Network
-#          : ANN accuray 92%-97%; CNN accuracy: 98%   
-#          : followed the tutorial: #https://www.youtube.com/watch?v=7HPwo4wnJeA
+#   Problem: Classify burn-in letters (of MESENTERY DATASET) into 10 classes using Convolutional Neural Network
+#          : CNN accuracy: 99.7%   
+#          : size of dataset: 3000 of size 37x22
 # 
 #   For more information, contact:
 #       Rumana Aktar
@@ -121,7 +120,7 @@ plt.figure(figsize = (10,7))
 sn.heatmap(cm, annot=True, fmt='d')
 plt.xlabel('Predicted')
 plt.ylabel('Truth')
-plt.savefig("ConfusionMatrix_CNN_Mesentery_Digits.png")
+plt.savefig("ConfusionMatrix_Mesentery_Digits.png")
 plt.close()
 
 # # # #--------------------- result: Classification Report Convolutional Neural Network:  --------------------------------------------
